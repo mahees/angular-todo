@@ -1,0 +1,23 @@
+{
+  "name": "angular-crash-course",
+  "description": "Angular Crash Course",
+  "main": "server.js",
+  "authors": [
+    "Mahees Ishaq <mahees.ishaq@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.25",
+    "angular-route": "1.2.25",
+    "angular-local-storage": "^0.2.7"
+  }
+}
