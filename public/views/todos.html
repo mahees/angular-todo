@@ -1,0 +1,13 @@
+<div>
+    <h1>My awesome todo list</h1>
+    <h4>Remaining count {{remainingCount()}}</h4>
+    <input type="text" ng-model="searchText" placeholder="filter" />
+    <br/>
+    <ul>
+        <li ng-repeat="todo in todos | filter:searchText">
+            <todo model="todo" id="{{$index}}" change="save(todo)" ></todo>
+        </li>
+    </ul>
+    <a href="#/new ">Add Todo</a>
+    <button ng-click="alertJoke() ">Alert A Joke</button>
+</div>
