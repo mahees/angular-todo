@@ -21,7 +21,7 @@
      $scope.alertJoke = function() {
          $http({
              method: 'GET',
-             url: 'http://api.icndb.com/jokes/random'
+             url: '//api.icndb.com/jokes/random'
          }).then(function successCallback(response) {
              // this callback will be called asynchronously
              // when the response is available
