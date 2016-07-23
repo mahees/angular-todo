@@ -10,5 +10,5 @@ app.get('/', function(req, res, next) {
 });
 
 app.listen(process.env.PORT || 3000, process.env.IP || 'localhost', function () {
-  console.log('Example app listening on port ' + process.env.PORT || 3000);
+  console.log('Example app listening on port ' + (process.env.PORT || 3000));
 });
